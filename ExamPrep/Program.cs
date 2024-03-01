@@ -27,7 +27,7 @@ namespace Puzzle
                 Puzzle MyPuzzle;
                 if (Filename.Length > 0)
                 {
-                    MyPuzzle = new Puzzle(Filename + ".txt");
+                    MyPuzzle = new Puzzle("C:\\Users\\James\\Documents\\GitHub\\Gellert19-ExamPrep\\ExamPrep\\Resouces\\" + Filename + ".txt");
                 }
                 else
                 {
